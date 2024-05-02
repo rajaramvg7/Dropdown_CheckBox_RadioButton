@@ -1,5 +1,9 @@
 from ._anvil_designer import Form1Template
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
+import anvil.server
 
 
 class Form1(Form1Template):
@@ -29,8 +33,13 @@ class Form1(Form1Template):
 
     if current_country and languages and vacation :
       # Stores the vanlue enterd in db.
-      pass
-    otherwise
+      anvil.server.call('store_data', current_country, languages, vacation)
+
+      # Notify data save & clear inputs
+      Notification("Data saved in db").show()
+      self.clear_inputs()
+      
+    else: alert("Please fill out required fields")
 
 
 
