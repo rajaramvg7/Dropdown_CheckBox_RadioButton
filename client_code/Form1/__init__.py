@@ -25,7 +25,10 @@ class Form1(Form1Template):
         languages = languages + cb.text
     
     # Next vacation plan motivation
-    vacation = self.radio_button_1
+    vacation = self.rb1.get_group_value()
+    
+
+
 
     
 
