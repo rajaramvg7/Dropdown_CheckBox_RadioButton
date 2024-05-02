@@ -25,7 +25,7 @@ components:
     - name: label_3
       properties: {text: 'Current Residense Country:'}
       type: Label
-      layout_properties: {grid_position: 'DMMFXS,QZBXQN YWHKXE,NFXLPF'}
+      layout_properties: {grid_position: 'DMMFXS,QZBXQN'}
     - name: current_drpdwn
       properties:
         items: ['', United States, Imdoa, United Kigdom, France, Denmark, Japan, Singapore,
@@ -75,15 +75,15 @@ components:
       type: Label
       layout_properties: {grid_position: 'ZCVDBK,JFVGZT'}
     - name: rb1
-      properties: {text: African Safari}
+      properties: {text: African Safari, value: African Safari}
       type: RadioButton
       layout_properties: {grid_position: 'ZTRYYJ,AHZSYY'}
     - name: rb2
-      properties: {text: Paris Night Life}
+      properties: {text: Paris Night Life, value: Paris Night Life}
       type: RadioButton
       layout_properties: {grid_position: 'ZTRYYJ,YWZWJY'}
     - name: rb3
-      properties: {text: Alps Mountain}
+      properties: {text: Alps Mountain, value: Alps Mountain}
       type: RadioButton
       layout_properties: {grid_position: 'ZTRYYJ,ZKARYZ'}
     - name: button_1

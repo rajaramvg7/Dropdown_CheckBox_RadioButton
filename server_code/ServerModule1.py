@@ -5,9 +5,6 @@ import anvil.server
 
 @anvil.server.callable
 def store_data(current_country, languages, vacation):
-  
-
-  
-#   print("Hello, " + name + "!")
-#   return 42
-#
+  app_tables.plan.add_row(languages =  languages,
+                         residence_country = current_country
+                         vacation_plan = vacation)
