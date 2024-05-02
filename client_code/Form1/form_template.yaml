@@ -41,27 +41,27 @@ components:
       properties: {text: Language Spoken}
       type: Label
       layout_properties: {grid_position: 'UPKMDB,PBCLNA'}
-    - name: cb_1
+    - name: cb1
       properties: {text: English}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,VMSMXH'}
-    - name: cb_2
+    - name: cb2
       properties: {text: French}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,BYDRPO'}
-    - name: cb_3
+    - name: cb3
       properties: {text: German}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,BJJUNA'}
-    - name: cb_4
+    - name: cb4
       properties: {text: Hindi}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,SNQDTF'}
-    - name: cb_5
+    - name: cb5
       properties: {text: Chinese}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,VUMORD'}
-    - name: cb_6
+    - name: cb6
       properties: {text: Japanese}
       type: CheckBox
       layout_properties: {grid_position: 'VHCUNI,NJINNT'}
@@ -70,6 +70,22 @@ components:
           Surface', foreground: 'theme:Primary Container'}
       type: Label
       layout_properties: {grid_position: 'CCRRFK,WKQXQH'}
+    - name: label_5
+      properties: {text: Next Vacation Trip}
+      type: Label
+      layout_properties: {grid_position: 'ZCVDBK,JFVGZT'}
+    - name: rb1
+      properties: {text: African Safari}
+      type: RadioButton
+      layout_properties: {grid_position: 'ZTRYYJ,AHZSYY'}
+    - name: rb2
+      properties: {text: Paris Night Life}
+      type: RadioButton
+      layout_properties: {grid_position: 'ZTRYYJ,YWZWJY'}
+    - name: rb3
+      properties: {text: Alps Mountain}
+      type: RadioButton
+      layout_properties: {grid_position: 'ZTRYYJ,ZKARYZ'}
     - name: button_1
       properties: {text: Submit, role: filled-button}
       type: Button
