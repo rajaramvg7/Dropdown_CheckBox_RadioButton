@@ -6,5 +6,5 @@ import anvil.server
 @anvil.server.callable
 def store_data(current_country, languages, vacation):
   app_tables.plan.add_row(languages =  languages,
-                         residence_country = current_country
+                         residence_country = current_country,
                          vacation_plan = vacation)

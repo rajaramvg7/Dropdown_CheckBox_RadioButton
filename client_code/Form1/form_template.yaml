@@ -28,7 +28,7 @@ components:
       layout_properties: {grid_position: 'DMMFXS,QZBXQN'}
     - name: current_drpdwn
       properties:
-        items: ['', United States, Imdoa, United Kigdom, France, Denmark, Japan, Singapore,
+        items: ['', United States, India, United Kigdom, France, Denmark, Japan, Singapore,
           China, Thailand]
       type: DropDown
       layout_properties: {grid_position: 'DMMFXS,AFSBXD'}

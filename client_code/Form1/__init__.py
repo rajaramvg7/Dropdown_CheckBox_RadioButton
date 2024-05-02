@@ -18,9 +18,14 @@ class Form1(Form1Template):
     current_country = self.current_drpdwn.selected_value
     
     # Get the list of all langauges spoken
+    languages = ""
     for cb in self.check_boxes:
       if cb.checked == True:
-        languages = languages + cb.text
+        if languages == "":
+           languages = cb.text
+        else:
+           languages = languages + ", " + cb.text
+        # languages = languages + cb.text + ", "
     
     # Next vacation plan motivation
     vacation = self.rb1.get_group_value()
@@ -33,10 +38,23 @@ class Form1(Form1Template):
       Notification("Data saved in db").show()
       self.clear_inputs()
       
-    else: alert("Please fill out required fields")
+    else: 
+      alert("Please fill out required fields")
 
-def clear_inputs (self) :
-    self.
+  def clear_inputs(self) :
+    self.current_drpdwn.selected_value = ""
+    self.cb1.checked = False
+    self.cb2.checked = False
+    self.cb3.checked = False
+    self.cb4.checked = False
+    self.cb5.checked = False
+    self.cb6.checked = False
+    self.rb1.selected = False
+    self.rb2.selected = False
+    self.rb3.selected = False
+    
+    
+    
   
   
   
