@@ -28,7 +28,7 @@ class Form1(Form1Template):
     vacation = self.rb1.get_group_value()
 
     if current_country and languages and vacation :
-      # Call store
+      # Stores the vanlue enterd in db.
       pass
     otherwise
 
