@@ -23,7 +23,7 @@ components:
       type: Label
       layout_properties: {grid_position: 'TPISQE,DOZSAW'}
     - name: label_3
-      properties: {text: 'Country:'}
+      properties: {text: 'Current Residense Country:'}
       type: Label
       layout_properties: {grid_position: 'DMMFXS,QZBXQN YWHKXE,NFXLPF'}
     - name: current_drpdwn
@@ -37,11 +37,44 @@ components:
           Primary Container', foreground: 'theme:Primary Container'}
       type: Label
       layout_properties: {grid_position: 'FDAODL,TTHFJW'}
+    - name: label_4
+      properties: {text: Language Spoken}
+      type: Label
+      layout_properties: {grid_position: 'UPKMDB,PBCLNA'}
+    - name: cb_1
+      properties: {text: English}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,VMSMXH'}
+    - name: cb_2
+      properties: {text: French}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,BYDRPO'}
+    - name: cb_3
+      properties: {text: German}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,BJJUNA'}
+    - name: cb_4
+      properties: {text: Hindi}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,SNQDTF'}
+    - name: cb_5
+      properties: {text: Chinese}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,VUMORD'}
+    - name: cb_6
+      properties: {text: Japanese}
+      type: CheckBox
+      layout_properties: {grid_position: 'VHCUNI,NJINNT'}
     - name: label_2_copy_copy
       properties: {text: Radio Button, font_size: 22, bold: true, background: 'theme:On
           Surface', foreground: 'theme:Primary Container'}
       type: Label
       layout_properties: {grid_position: 'CCRRFK,WKQXQH'}
+    - name: button_1
+      properties: {text: Submit, role: filled-button}
+      type: Button
+      layout_properties: {grid_position: 'OJAWST,IFUFFX'}
+      event_bindings: {click: button_1_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
