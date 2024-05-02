@@ -35,8 +35,9 @@ class Form1(Form1Template):
       
     else: alert("Please fill out required fields")
 
-def clear_inputs(self):
-  self.current_drpdwn.selected_value = "",
+def clear_inputs (self) :
+    self.
+  
   
   
 
